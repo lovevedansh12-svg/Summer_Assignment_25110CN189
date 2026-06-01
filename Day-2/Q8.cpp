@@ -1,3 +1,5 @@
+// Check whether a number is palindrome
+
 #include <iostream>
 using namespace std;
 int main()

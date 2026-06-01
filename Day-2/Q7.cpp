@@ -1,3 +1,5 @@
+// Find product of digits
+
 #include <iostream>
 using namespace std;
 int main()
@@ -11,4 +13,5 @@ int main()
         num /= 10;
     }
     cout << "The product of the digits of the given no. is " << product;
+    return 0;
 }

@@ -1,3 +1,5 @@
+// Find sum of digits of a number
+
 #include <iostream>
 using namespace std;
 int main()
@@ -11,4 +13,5 @@ int main()
         num /= 10;
     }
     cout << "The sum of the digits of the given no. is " << sum;
+    return 0;
 }
