@@ -1,3 +1,5 @@
+// Count digits in a number
+
 #include <iostream>
 using namespace std;
 int main()
@@ -11,4 +13,5 @@ int main()
         count++;
     }
     cout << "The no. of the digits in the given no. is " << count;
+    return 0;
 }

@@ -1,3 +1,5 @@
+// Find factorial of a number
+
 #include <iostream>
 using namespace std;
 int main()
@@ -8,4 +10,5 @@ int main()
     for (int i = 1; i <= n; i++)
         x *= i;
     cout << "The factorial of " << n << " is " << x;
+    return 0;
 }
