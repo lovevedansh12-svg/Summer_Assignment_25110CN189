@@ -2,6 +2,7 @@
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int n, t1 = 1, t2 = 1, temp;

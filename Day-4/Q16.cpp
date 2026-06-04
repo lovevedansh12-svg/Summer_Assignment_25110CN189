@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 int main()
 {
     int ll, ul, temp, count, result;
