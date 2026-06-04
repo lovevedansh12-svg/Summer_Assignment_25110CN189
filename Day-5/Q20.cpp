@@ -20,10 +20,12 @@ int main()
     {
         for (int i = 2; i <= num; i++)
         {
+            // check if i is a factor of num
             if (num % i == 0)
             {
                 flag = 1;
 
+                // check if i is a prime factor
                 for (int j = 2; j < i; j++)
                 {
                     if (i % j == 0)
