@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n, t1 = 1, t2 = 1, temp;
+    int n, t1 = 0, t2 = 1, temp;
 
     cout << "Enter the value of n : ";
     cin >> n;
