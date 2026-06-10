@@ -11,7 +11,7 @@ int main()
         cout << num << " is neither prime nor composite";
     else
     {
-        for (int i = 2; i < num; i++)
+        for (int i = 2; i <= num / i; i++)
         {
             if (num % i == 0)
             {

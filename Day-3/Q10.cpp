@@ -14,7 +14,7 @@ int main()
         if (i >= 2)
         {
             flag = 1;
-            for (int j = 2; j < i; j++)
+            for (int j = 2; j <= i / j; j++)
             {
                 if (i % j == 0)
                 {
