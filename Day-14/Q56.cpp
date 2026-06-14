@@ -26,13 +26,11 @@ int main()
             else if (j >= i and arr[j] == arr[i])
                 count++;
         }
-
         if (count > 1)
             cout << "The element " << arr[i] << " occurs " << count << " times in the array\n";
 
         else if (count == 1)
             cout << "No duplicates of element " << arr[i];
     }
-
     return 0;
 }
