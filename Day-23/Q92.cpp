@@ -1,6 +1,7 @@
 // Find maximum occurring character
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
